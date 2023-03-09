@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-image: url(./img/circle-scatter-haikei.svg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    left: 50%;
+    width: 600px;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0 2rem 1rem;
+    border-radius: 0 0 50px 50px;
+}
+
+.navHome,
+.navContact,
+.navLogin {
+    padding-top: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: #a7233a;
+    text-decoration: none;
+}
+
+.header {
+    margin: 2rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    padding: 2rem 10rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    min-height: 700px;
+    min-width: 1200px;
+    margin-bottom: 4rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #a7233a;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #5f1521;
+    color: #000;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #fff;
+    font-size: 2rem;
+}
+
+td {
+    border: 1px solid #fff;
+    padding: 1rem;
+}
+
+th {
+    border: 1px solid #fff;
+    padding: 1rem;
+    text-transform: uppercase;
+}
